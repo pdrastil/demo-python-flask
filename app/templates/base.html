@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Monitoring</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+  <h1><a href="{{ url_for('index') }}">Monitoring</a></h1>
+</nav>
+<section class="content">
+  {% block content %}{% endblock %}
+</section>
